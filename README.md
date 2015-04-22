@@ -43,7 +43,7 @@ gulp serve
 
 ### Tech
 
-FixApp uses a number of open source projects to work properly:
+Fix uses a number of open source projects to work properly:
 
 * [AngularJS] - HTML enhanced for web apps!
 * [Angular Material] - An implementation of Material Design in Angular.js.
