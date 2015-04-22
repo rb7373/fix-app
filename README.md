@@ -39,3 +39,21 @@ gulp serve
 * `gulp test:auto` to launch your unit tests with Karma in watch mode
 * `gulp protractor` to launch your e2e tests with Protractor
 * `gulp protractor:dist` to launch your e2e tests with Protractor on the dist files
+* 
+
+### Tech
+
+Fix uses a number of open source projects to work properly:
+
+* [AngularJS] - HTML enhanced for web apps!
+* [Angular Material] - An implementation of Material Design in Angular.js.
+* [node.js] - evented I/O for the backend
+* [Express] - fast node.js network app framework
+* [Gulp] - the streaming build system
+
+
+[node.js]:http://nodejs.org
+[express]:http://expressjs.com
+[AngularJS]:http://angularjs.org
+[Angular Material]:https://material.angularjs.org/
+[Gulp]:http://gulpjs.com
