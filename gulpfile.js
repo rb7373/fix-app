@@ -8,7 +8,7 @@ var $ = require('gulp-load-plugins')({lazy: true});
 
 var options = {
   src: 'src/client',
-  dist: 'dist',
+  dist: 'dist/client',
   tmp: '.tmp',
   e2e: 'e2e',
   errorHandler: function(title) {
