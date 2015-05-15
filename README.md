@@ -21,14 +21,28 @@ Fix is the best application to learn physics, learns playing.
     - On OSX you can alleviate the need to run as sudo by [following these instructions](http://jpapa.me/nomoresudo). I highly recommend this step on OSX
 - Open terminal
 - Type `npm install -g node-inspector bower gulp`
+- Update npm if is necessary: `sudo npm install npm -g` ([On Linux](http://stackoverflow.com/questions/23393707/how-to-update-npm))
+- If you use Cloud9
+    - `npm install http-server -g`
 
-## Quick Start
+## Quick Start Local Machine
 Clone this repo and run the content locally
 ```bash
 npm install
 bower install
 gulp serve
 ```
+
+## Quick Start Cloud9
+```bash
+npm install
+bower install
+gulp build
+http-server
+```
+
+Open in the browser `https://fix-app-rb73731.c9.io/dist/client/`
+
 
 ### Use Gulp tasks
 
