@@ -61,7 +61,7 @@ Open in the browser `https://fix-app-rb73731.c9.io/dist/client/`
     - Copy your ssh key
         - check `cd ~/.ssh`
             - `ls id_*`, if it does not exist create a one: `ssh-keygen -t rsa -C "your_email@example.com"`
-        - cat ~/.ssh/id_rsa.pub 
+        - `cat ~/.ssh/id_rsa.pub` or `xclip -selection clipboard < ~/.ssh/id_rsa.pub`
         - copy and add key to github
 
 ### Tech
