@@ -25,6 +25,7 @@ Fix is the best application to learn physics, learns playing.
 - If you use Cloud9
     - `npm install http-server -g`
 
+
 ## Quick Start Local Machine
 Clone this repo and run the content locally
 ```bash
@@ -53,7 +54,15 @@ Open in the browser `https://fix-app-rb73731.c9.io/dist/client/`
 * `gulp test:auto` to launch your unit tests with Karma in watch mode
 * `gulp protractor` to launch your e2e tests with Protractor
 * `gulp protractor:dist` to launch your e2e tests with Protractor on the dist files
-* 
+
+### Github
+
+- Ubuntu Cloud9
+    - Copy your ssh key
+        - check `cd ~/.ssh`
+            - `ls id_*`, if it does not exist create a one: `ssh-keygen -t rsa -C "your_email@example.com"`
+        - cat ~/.ssh/id_rsa.pub 
+        - copy and add key to github
 
 ### Tech
 
